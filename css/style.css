@@ -1,0 +1,31 @@
+p{
+    color: beige;
+    background: red;
+    font-style: italic;
+}
+
+div{                    /*style for all div*/
+    width: 100px;
+    height: 100px;
+    background: orange;
+   } 
+
+#square{                /*style for unique id named "square"*/
+    width: 100px;
+    height: 100px;
+    background: rgb(134, 42, 255); 
+    margin: 10px;                   /*external spacing*/
+    padding: 10px;                  /*internal spacing*/        
+    border: 5px solid pink;  
+    float: left;       
+    position: absolute;             /*absolute position of element*/
+    top: 10px;
+    left: 100px;                                                          
+} 
+
+.box{                   /*style for specific class named "box"*/
+    width: 50px;
+    height: 50px;
+    background: yellow;
+    float: left;
+} 
